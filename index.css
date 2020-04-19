@@ -1,199 +1,138 @@
-html,body{
+*{
     margin: 0;
     padding: 0;
 }
+.bground{
+    background-image: url('../images/mybgimage.jpeg');
+    background-size: 100% 100%;
 
-.logo{
-    text-align:center;
-    font-family: 'Times New Roman', Times, serif;
-    margin: 10px;
 }
-
-.logo-nav-section{
+.logo-nav-bars{
     display: grid;
-    grid-template-columns: auto auto auto;
-    background-color:rgba(255, 255, 255, 0.5);
-    overflow: hidden;
-    position: fixed;
-    margin-top: 0;
-    width: 100%;
-    margin:-5px;
-}
+    grid-template-columns: 40% 60%;
+    padding: 5px;
+    margin: 15px 35px 0 135px;
 
-.logo-nav-section a{
- color: black;
 }
-
-.logo-nav-section> div{
-    justify-content: space-between;
-    text-align: center;  
+.logo-nav-bars >div{
+    text-align: center;
+    margin: 10px 0px; 
 }
-
-.logo{
-    margin-top:9px;
-    font-family: "Gill Sans", sans-serif; 
+.nav-bar li {
+    display: inline;
+    padding: 17px;
 }
-
-.left-nav{
-    margin-top: 20px;
+.nav-bar ul{
+    margin-top: 32px;
 }
-.left-nav .nav-1 a:hover {
-background-color: rgb(127, 127, 224);
-color: rgb(189, 18, 18);
-border-radius: 20px;
+h1{
+    font-size: 65px;
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+    margin-left: 25px;
 }
-
-.right-nav{
-    margin-top: 20px;   
-}
-
-div .nav-5{
-   padding: 5px;
-}
-
-div .nav-6{
-padding: 4px;
-}
-
-span > a{
-    padding: 15px;
+.nav-bar li a{
     text-decoration: none;
-    color: rgb(92, 79, 79);
-}
-.img{
-    background-image: url('../images/flower2.jpeg');
-    background-repeat: no-repeat;
-    background-size:cover;
-    padding:5px;
-}
-.icons-n-content{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin: 60px;
-    padding: 50px;
-    justify-content: space-between;
-}
-.icons-n-content i,p{
-    font-size: 50px;
     color: black;
-    text-align: center;
-    margin-left: 100px;
-}
-.center-text{
-    text-align: center;
-    margin-top: 250px;
-}
- .center-text> h1{
-    font-size: 55px;
-}
-p{
-    font-size:25px;
-    margin-right: 110px;
 }
 
-.button{
-    text-align: center;
-    margin-right: 500px;
-    padding: 15px 20px;
-    background-color: rgba(221, 0, 0, 0.596);
-    color: white;
-}
-
-.images-n-text{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: auto;
-}
-.flower1{
-    background-image: url('../images/flower1.jpeg');
-    background-size: 100% 100%;
-    height: 500px;
-}
-.flower3{
-    background-image: url('../images/flower3.jpeg');
-    background-size: 100% 100%;
-    height: 500px;
-}
-.para1>div button{
-    text-align: center;
-}
-.photos{
+.pics-n-content{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto auto ;
-    grid-gap: 10px;
-    padding: 40px;
-    margin: auto;
-    grid-gap:5px;
+    grid-gap: 25px;
+    padding: 75px;
+    margin: 40px;
+    margin-top: -80px;
 
 }
-.photos> div{
-    padding: 100px;
-    text-align: center;
+.pics-n-content>div{
+background-color: rgba(153, 202, 202, 0.212);
+padding: 90px;
+text-align: center;
+font-size: 8px;
 }
-.blockA{
+.block1{
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
-    background-image: url('../images/rose1.jpeg');
-    background-size: 100% 100%;
-    height: 400px;
 }
-.blockB{
-    grid-column: 3 /span 2;
-    
+.block2{
+    grid-column: 3;
+    grid-row: 1 / span 2;
 }
-.blockI{
-    grid-column: 1 / span 2;
+.block2 p{
+    font-size: 25px;
 }
-.blockN{
+#symbol{
+    color: rgb(106, 211, 211);
+    float: right;
+
+}
+.block7{
     grid-column: 3 / span 2;
-    background-image: url('../images/rose3.jpeg');
+    background-image: url('../images/lengthy-image.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.block9{
+    grid-column: 2 / span 2;
+    background-image: url('../images/flower-pic4.jpeg');
     background-size: 100% 100%;
 }
-.blockF{
-    grid-column: 1 /span 2;
-    background-color: gray;
-    color:black;
+.block1{
+    background-image: url('../images/b-flower1.jpeg');
+    background-position: center;
+    background-repeat: no-repeat
+    ;
 }
-.blockL{
-    grid-auto-rows: 3 /span 2;
-    background-image: url('../images/rose4.jpeg');
+.block3{
+    background-image: url('../images/flower-pic2.jpeg');
     background-size: 100% 100%;
 }
-.blockC{
-background-image: url('../images/flower1.jpeg');
-background-size: 100% 100%;
-}
-.blockM{
-    background-image: url('../images/rose11.jpeg');
+.block4{
+    background-image: url('../images/aloe-like-pic.jpeg');
     background-size: 100% 100%;
 }
-.blockD{
-    background-image: url('../images/rose12.jpeg');
+.block6{
+    background-image: url('../images/fiorello7.jpeg');
     background-size: 100% 100%;
 }
-.blockG{
-background-image: url('../images/rose13.jpeg');
-background-size: 100% 100%;
+.block5{
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 2;
 }
-.blockH{
-background-image: url('../images/rose14.jpeg');
+.block5 p{
+font-size: 25px;
 }
-.last-div{
-    text-align: center;
-    background-color: gray;
-    padding: 30px;
-    margin: 40px;
-    margin-top: 5px;
+.abt{
+    font-size: 30px;
+    color: darkred;
 }
 
-
-
-
-
-
-
-
- 
+.block11{
+    background-image: url('../images/fiorello6.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.block10 p{
+    font-size: 25px;
+}
+.block13{
+    background-image: url('../images/flower9.jpeg');
+    background-size: 100% 100%;
+}
+.block14{
+    background-image: url('../images/flower10.jpeg');
+    background-size: 100% 100%;
+}
+.sub-menu-1{
+    position: relative;
+    display: none;
+}
+.nav-bar li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: rgba(140, 200, 202, 0.384);
+    margin: 0 150px 0 150px;
+}
 
 
